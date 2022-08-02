@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script>function bodyBGGreen(){
+    document.body.style.backgroundColor="Green";
+}
+function demo()
+ { ("are you sure???")
+                alert("yess");
+            }
+            function demo1()
+ { ("are you sure???")
+                alert("noo");
+            }
+function demo4()
+{
+   document.getElementById("x").style.backgroundColor="lightblue";
+}
+function demo5()
+{
+   document.getElementById("y").style.backgroundColor="pink";
+}
+function demo6()
+{
+   document.getElementById("z").style.backgroundColor="lightgreen";
+}
+</script>
+    </head>
+<body style="background-color: lightcoral;">
+   <center>
+    <div style="background-color: bisque; height: 30%; width: 20%; text-align: center;">
+   			<h1>Sign In <hr></h1>
+						<b>User name:</b>	
+				<input type="text" placeholder="Enter User Name..." id="x" onfocus="demo4()"/><hr>
+			<b>E-mail ID:</b>
+				<input  type="text" placeholder="Enter E-mail ID..." id="y" onfocus="demo5()" /><hr>		
+			<b>Password:</b>
+			    <input type="password" placeholder="Enter password here.." id="z" onfocus="demo6()" /><hr>
+				<input type="button" value="OK" onclick="demo()"/>&nbsp;&nbsp;
+                <input type="button" value="cancle" onclick="demo1()"/><hr>
+    <input type="button" buttoncolor="yellow" value="Body Bg Green" onclick="bodyBGGreen()"/><hr>
+</div>
+</body>
